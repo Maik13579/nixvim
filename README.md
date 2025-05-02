@@ -1,38 +1,8 @@
+# Fork from https://github.com/dc-tec/nixvim
+
 # NixVim Configuration
 
 This repository contains my personal configuration NixVim, a Neovim configuration managed with Nix.
-
-![Neovim](./.docs/images/neovim.png)
-
-## How to use
-
-You can use this flake as an input:
-
-```nix
-{
-    inputs = {
-        nixvim.url = "github:dc-tec/nixvim"
-    };
-}
-```
-
-You can then install the package either normally or through home-manager.
-
-#### Normal:
-
-```nix
-environment.systemPackages = [
-    inputs.nixvim.packages.x86_64-linux.default
-];
-```
-
-#### Home-Manager
-
-```nix
-home-manager.users.<user>.home.packages = [
-    inputs.nixvim.packages.x86_64-linux.default
-];
-```
 
 ## Plugins
 

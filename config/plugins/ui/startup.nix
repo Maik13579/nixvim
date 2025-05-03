@@ -16,10 +16,10 @@
         title = "Header";
         margin = 5;
         content = [
-          " MMMMMMMM               MMMMMMMM                    iiii  kkkkkkkk            "      
-          " M:::::::M             M:::::::M                   i::::i k::::::k            "          
-          " M::::::::M           M::::::::M                    iiii  k::::::k            "          
-          " M:::::::::M         M:::::::::M                          k::::::k            "          
+          " MMMMMMMM               MMMMMMMM                    iiii  kkkkkkkk            "
+          " M:::::::M             M:::::::M                   i::::i k::::::k            "
+          " M::::::::M           M::::::::M                    iiii  k::::::k            "
+          " M:::::::::M         M:::::::::M                          k::::::k            "
           " M::::::::::M       M::::::::::M  aaaaaaaaaaaaa   iiiiiii  k:::::k    kkkkkkk "
           " M:::::::::::M     M:::::::::::M  a::::::::::::a  i:::::i  k:::::k   k:::::k  "
           " M:::::::M::::M   M::::M:::::::M  aaaaaaaaa:::::a  i::::i  k:::::k  k:::::k   "
@@ -32,7 +32,7 @@
           " M::::::M               M::::::Ma:::::aaaa::::::a i::::::ik::::::k  k:::::k   "
           " M::::::M               M::::::M a::::::::::aa:::ai::::::ik::::::k   k:::::k  "
           " MMMMMMMM               MMMMMMMM  aaaaaaaaaa  aaaaiiiiiiiikkkkkkkk    kkkkkkk "
-                                                  
+
         ];
         highlight = "Statement";
         defaultColor = "";
@@ -66,11 +66,6 @@
             " File Browser"
             "Telescope file_browser"
             "fe"
-          ]
-          [
-            " Copilot Chat"
-            "CopilotChat"
-            "ct"
           ]
         ];
         highlight = "string";

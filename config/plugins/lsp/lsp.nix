@@ -80,6 +80,18 @@
         clangd = {
           enable = true;
         };
+        nixd = {
+          enable = true;
+          extraOptions = {
+            settings = {
+              nixd = {
+                formatting = {
+                  command = "alejandra";
+                };
+              };
+            };
+          };
+        };
       };
 
       keymaps = {

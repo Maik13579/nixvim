@@ -14,6 +14,17 @@
       followCurrentFile = {
         enabled = true;
       };
+      filteredItems = {
+        visible = false; # when true, they will just be displayed differently than normal items
+        showHiddenCount = true; # when true, the number of hidden items in each folder will be shown as the last entry"
+        hideGitignored = true;
+        hideDotfiles = false;
+        hideByName = [
+          "flake.lock"
+        ];
+        #hideByPattern = [ "*.lock" ];
+        neverShow = [ ".git" ];
+      };
     };
 
     defaultComponentConfigs = {
